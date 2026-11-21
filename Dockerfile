@@ -71,7 +71,6 @@ COPY CHANGELOG.md ./CHANGELOG.md
 
 # Persistent mount point: bucket data
 # 持久化挂载点：记忆数据
-VOLUME ["/app/buckets"]
 
 # Default to streamable-http for container (remote access)
 # 容器场景默认用 streamable-http
